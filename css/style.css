@@ -15,7 +15,7 @@ header {
 .site-logo {
   width: 277px;
   height: 150px;
-  background-image: url('madalon_logo_270px_rev_1.png');
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Madalon_Logo_270px_rev_1.png');
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -24,7 +24,7 @@ header {
   font-family: Oswald, sans-serif;
   font-size: 5em;
   font-weight: 700;
-  margin: 40px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 #phonematters {
@@ -60,16 +60,16 @@ header {
   list-style-type: none;
   text-align: center;
   background: #333333;
+  margin: 0px;
 }
 
 .primary_nav li {
   color: #ffffff;
   display: inline-block;
   font-family: Oswald, sans-serif;
-  font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-transform: uppercase;
-  padding: 8px 15px;
+  padding: 15px 25px;
 }
 
 .primary_nav li:hover {
@@ -78,13 +78,18 @@ header {
 
 .section_1 {
   background-color: #a21c26;
-  background-image: url('Hero_Image_rev_1.jpg');
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Hero_Image_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 531px;
 }
 
 #hero_text {
   font-family: Oswald, sans-serif;
   text-align: center;
   color: #ffffff;
+  margin-top: 70px;
+  padding-right: 50px;
 }
 
 #hero_text i {
@@ -104,6 +109,48 @@ header {
   padding: 0;
 }
 
-.section_header {
+.section_2{
+
+}
+
+.section_title {
+  margin-top: 50px;
   text-align: center;
+}
+
+.section_cta {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.verdict_left {
+  margin: 30px 0 0 100px;
+  width: 600px;
+  height: 250px;
+  background-color: #777777;
+}
+
+.verdict_left p {
+  text-align: center;
+  color: #000000;
+  font-family: serif;
+  font-size: 3em;
+  font-weight: 700px;
+  padding-top: 25px;
+}
+
+.verdict_right p {
+  text-align: center;
+  color: #000000;
+  font-family: serif;
+  font-size: 3em;
+  font-weight: 700px;
+  padding-top: 25px;
+}
+
+.verdict_right {
+  margin: 30px 100px 0 0;
+  width: 600px;
+  height: 250px;
+  background-color: #777777;
 }
