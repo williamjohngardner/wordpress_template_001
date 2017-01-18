@@ -208,6 +208,7 @@ header {
 
 .section_7 {
   height: 500px;
+  background-color: gray;
 }
 
 .section_8 {
@@ -217,6 +218,16 @@ header {
   height: 500px;
 }
 
+.section_9 {
+  background-color: gray;
+  height: auto;
+}
+
+.section_10 {
+  background-color: #a21c26;
+  height: 100px;
+}
+
 button {
   background-color: #a21c26;
   width: 370px;
@@ -224,9 +235,10 @@ button {
   border-radius: 5px;
   margin-top: 20px;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: block;
   list-style-type: none;
+  box-shadow: 1px 1px 10px #666666;
 }
 
 #button_list_1 {
@@ -236,7 +248,8 @@ button {
 
 #button_list_2 {
   list-style-type: none;
-
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #button_list_3 {
