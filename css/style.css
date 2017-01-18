@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+header {
+  background-image: url('header_background_red_rev_2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 200px;
+}
+
+.header-left {
+  float: left;
+  padding: 20px 0 0 40px;
+}
+
+.site-logo {
+  width: 277px;
+  height: 150px;
+  background-image: url('madalon_logo_270px_rev_1.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#primaryphone {
+  font-family: Oswald, sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  margin: 40px 0 0 0;
+}
+
+#phonematters {
+  color: #a21c26
+}
+
+.header-right {
+  float: right;
+  padding: 40px 100px 0 0;
+  text-align: center;
+}
+
+.header-right h4 {
+  font-size: 3em;
+  letter-spacing: .05em;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+}
+
+.header-right h5 {
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #777777;
+  font-family: Oswald, sans-serif;
+}
+.header-right h6 {
+  font-size: 1.25em;
+  color: #ffffff;
+}
+
+.primary_nav {
+  list-style-type: none;
+  text-align: center;
+  background: #333333;
+}
+
+.primary_nav li {
+  color: #ffffff;
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 8px 15px;
+}
+
+.primary_nav li:hover {
+  background: #a21c26;
+}
+
+.section_1 {
+  background-color: #a21c26;
+  background-image: url('Hero_Image_rev_1.jpg');
+}
+
+#hero_text {
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+#hero_text i {
+  display: block;
+  font-size: 2em;
+  margin: 0;
+}
+
+#hero {
+  font-size: 100px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+#hero strong{
+  margin: 0;
+  padding: 0;
+}
+
+.section_header {
+  text-align: center;
+}
