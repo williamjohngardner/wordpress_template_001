@@ -125,11 +125,11 @@ header {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Results_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  height: 700px;
+  height: 500px;
 }
 
 .section_title {
-  margin-top: 75px;
+  margin-top: 35px;
   text-align: center;
   color: #ffffff;
 }
@@ -141,7 +141,7 @@ header {
 }
 
 .verdict_left {
-  margin: 100px 0 0 100px;
+  margin: 30px 0 0 100px;
   width: 600px;
   height: 300px;
   background-color: #777777;
@@ -166,7 +166,7 @@ header {
 }
 
 .verdict_right {
-  margin: 100px 100px 0 0;
+  margin: 30px 100px 0 0;
   width: 600px;
   height: 300px;
   background-color: #777777;
@@ -174,4 +174,73 @@ header {
 
 #section2_cta {
   color: #ffffff;
+}
+
+.section_3 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/JoeMadalon_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+.section_4 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+.section_5 {
+  background-color: #888888;
+  border-style: solid;
+  border-width: 8px 0 8px 0;
+  border-color: #a21c23;
+
+  height: 200px;
+}
+
+.section_6 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Blog_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 700px;
+}
+
+.section_7 {
+  height: 500px;
+}
+
+.section_8 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+button {
+  background-color: #a21c26;
+  width: 370px;
+  height: 62px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 1.5em;
+  display: block;
+  list-style-type: none;
+}
+
+#button_list_1 {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+#button_list_2 {
+  list-style-type: none;
+
+}
+
+#button_list_3 {
+  list-style-type: none;
+  margin-right: 30px;
+  margin-left: 0px;
 }
