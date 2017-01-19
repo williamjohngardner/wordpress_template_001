@@ -13,7 +13,7 @@ header {
   background-image: url('header_background_red_rev_2.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 200px;
+  height: 197px;
 }
 
 .header-left {
@@ -143,33 +143,31 @@ header {
 .verdict_left {
   margin: 30px 0 0 100px;
   width: 600px;
-  height: 300px;
-  background-color: #777777;
-}
-
-.verdict_left p {
-  text-align: center;
-  color: #000000;
-  font-family: serif;
-  font-size: 3em;
-  font-weight: 700px;
-  padding-top: 25px;
-}
-
-.verdict_right p {
-  text-align: center;
-  color: #000000;
-  font-family: serif;
-  font-size: 3em;
-  font-weight: 700px;
-  padding-top: 25px;
+  height: 250px;
+  background-color: #d1d3d4;
+  box-shadow: 5px 5px 10px #333333;
 }
 
 .verdict_right {
   margin: 30px 100px 0 0;
   width: 600px;
-  height: 300px;
-  background-color: #777777;
+  height: 250px;
+  background-color: #d1d3d4;
+  box-shadow: 5px 5px 10px #333333;
+}
+
+.verdict_text {
+  text-align: center;
+  color: #000000;
+  font-family: Oswald, sans-serif;
+  font-size: 2.5em;
+  font-weight: 700px;
+  padding-top: 40px;
+  line-height: 1.25;
+}
+
+.verdict_text strong {
+  font-size: 2.5em;
 }
 
 #section2_cta {
@@ -183,6 +181,15 @@ header {
   height: 500px;
 }
 
+#section3_text {
+  margin-top: 2%;
+  color: #ffffff;
+}
+
+#section3_cta {
+  text-align: left;
+  color: #ffffff;
+}
 .section_4 {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
