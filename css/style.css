@@ -186,9 +186,26 @@ header {
   color: #ffffff;
 }
 
+#section3_text h3 {
+  font-weight: 400;
+  font-size: 3em;
+}
+
+#section3_text h5 {
+  font-weight: 300;
+  font-size: 1.7em;
+}
+
+#section3_text p {
+  font-family: serif;
+  font-weight: 150;
+  font-size: 1.5em;
+  text-align: justify;
+  margin-top: 30px;
+}
+
 #section3_cta {
   text-align: left;
-  color: #ffffff;
 }
 .section_4 {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
@@ -196,6 +213,90 @@ header {
   background-position: top;
   height: 500px;
 }
+
+/* START OF TABS CSS*/
+
+.section {
+  display: none;
+  padding: 20px 0 0;
+}
+
+input {
+  display: none;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+.name {
+  color: #a21c26;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  background-color: none;
+  padding: 10px 15px;
+  margin: auto;
+  width: 35%;
+  border-radius: 5px;
+}
+
+img {
+  /*margin-left: 7%;
+  margin-right: auto;*/
+  margin-bottom: 25px;
+}
+
+#image1 {
+  margin-left: 7%;
+  margin-right: auto;
+}
+
+#image2 {
+  margin-left: 7%;
+  margin-right: auto;
+}
+
+#image3 {
+  margin-left: 7%;
+  margin-right: auto;
+}
+
+#image4 {
+  margin-left: 7%;
+  margin-right: auto;
+}
+
+.cirimage {
+  width: 125px;
+  height: 125px;
+}
+
+.cirimage:hover {
+  transform: scale(1.25);
+  transform-origin: center;
+}
+
+/* END OF TABS CSS */
 
 .section_5 {
   background-color: #888888;
