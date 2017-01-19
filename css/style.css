@@ -216,6 +216,10 @@ header {
 
 /* START OF TABS CSS*/
 
+.law_firm {
+  padding-top: 100px;
+}
+
 .section {
   display: none;
   padding: 20px 0 0;
@@ -267,12 +271,12 @@ img {
 }
 
 #image1 {
-  margin-left: 7%;
+  margin-left: 0%;
   margin-right: auto;
 }
 
 #image2 {
-  margin-left: 7%;
+  margin-left: 50px;
   margin-right: auto;
 }
 
@@ -282,8 +286,8 @@ img {
 }
 
 #image4 {
-  margin-left: 7%;
-  margin-right: auto;
+  margin-left: 100%;
+  margin-right: 0%;
 }
 
 .cirimage {
