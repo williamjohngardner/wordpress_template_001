@@ -374,7 +374,7 @@ img {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  height: 500px;
+  height: auto;
 }
 
 #section8_sectiontitle {
@@ -382,16 +382,74 @@ img {
 }
 
 .section_8 hr {
-  background-color: #333333;
+  background-color: #a21c26;
   border: none;
-  height: 2px;
-  width: 30%;
+  height: 3px;
+  width: 25%;
   margin: 5px 0;
   padding: 0;
+  margin-left: 20px;
 }
 
 .section_8 a {
   color: #333333;
+}
+
+#main_video {
+  float: right;
+  margin-right: 0px;
+}
+
+#video_title_box {
+  width: 560px;
+  height: 315px;
+  background-color: #999999;
+}
+
+#video_title_box h2 {
+  color: #a21c26;
+  font-family: Oswald, sans-serif;
+  font-size: 3em;
+  font-weight: 250;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+#video_title_box h3 {
+  font-family: serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+#video_title_box h6 {
+  margin-left: 20px;
+}
+
+#video_title_box a:hover {
+  color: #ffffff;
+}
+
+#video_links a {
+  color: #a21c26;
+  border: 3px #a21c26 solid;
+  border-radius: 2px;
+  font-family: Oswald, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 5px 30px;
+}
+
+#video_links a:hover {
+  color: #777777;
+}
+
+#video_links ul {
+  list-style-type: none;
+}
+
+#video_links li {
+  margin: 30px;
 }
 
 .section_9 {
