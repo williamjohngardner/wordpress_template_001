@@ -207,6 +207,7 @@ header {
 #section3_cta {
   text-align: left;
 }
+
 .section_4 {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
@@ -303,7 +304,7 @@ img {
 /* END OF TABS CSS */
 
 .section_5 {
-  background-color: #888888;
+  background-color: #ffffff;
   border-style: solid;
   border-width: 8px 0 8px 0;
   border-color: #a21c23;
@@ -311,11 +312,52 @@ img {
   height: 200px;
 }
 
+#sprite {
+
+}
+
 .section_6 {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Blog_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
   height: 700px;
+}
+
+#section6_cta {
+  color: #ffffff;
+}
+
+.blog_post {
+  display: inline-block;
+  margin: 20px 3px;
+  width: 275px;
+  height: 442px;
+  background-color: #ffffff;
+  border: 1px #ffffff solid;
+}
+
+.blog_post img {
+  width: 273px;
+}
+
+.blog_post h4 {
+  margin: 0 10px 0 10px;
+}
+
+.blog_post h6 {
+  margin-left: 10px;
+}
+
+#read_more {
+  font-size: 1.1em;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  width: 35%;
+  background-color: #a21c26;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-left: 10px;
+
 }
 
 .section_7 {
