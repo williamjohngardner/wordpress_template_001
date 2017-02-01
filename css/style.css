@@ -34,6 +34,7 @@ header {
   font-size: 5em;
   font-weight: 700;
   margin: 50px 0 0 0;
+  color: #333333;
 }
 
 #phonematters {
@@ -309,11 +310,13 @@ img {
   border-width: 8px 0 8px 0;
   border-color: #a21c23;
 
-  height: 200px;
+  height: auto;
 }
 
 #sprite {
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 .section_6 {
@@ -361,13 +364,25 @@ img {
 }
 
 .section_7 {
-  height: auto;
   background-color: gray;
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/UnderstandingLaw_Background_rev_1.jpg');
+  overflow: hidden;
+}
+
+#section7_sectiontitle {
+  color: #333333;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 .section_7 img {
   width: 275px;
   height: 185px;
+}
+
+.section_7 .col-lg-3 {
+
 }
 
 .section_8 {
@@ -377,22 +392,38 @@ img {
   height: auto;
 }
 
+#vid_frame {
+  margin: 0;
+  padding: 0;
+}
+
 #section8_sectiontitle {
   color: #333333;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 .section_8 hr {
-  background-color: #a21c26;
+  background-color: #ffffff;
   border: none;
-  height: 3px;
-  width: 25%;
+  height: 1px;
+  width: 90%;
   margin: 5px 0;
   padding: 0;
   margin-left: 20px;
 }
 
-.section_8 a {
-  color: #333333;
+#section8_button {
+  color: #ffffff;
+  font-size: 1.25em;
+  font-weight: 500;
+  background-color: #a21c26;
+  width: 193px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 12px 28px;
+  box-shadow: 5px 5px 10px #333333;
 }
 
 #main_video {
@@ -473,6 +504,8 @@ button {
   display: block;
   list-style-type: none;
   box-shadow: 1px 1px 10px #666666;
+  text-align: left;
+  padding-left: 25px;
 }
 
 #button_list_1 {
@@ -482,8 +515,7 @@ button {
 
 #button_list_2 {
   list-style-type: none;
-  margin-left: 0px;
-  margin-right: 0px;
+  float: center;
 }
 
 #button_list_3 {
