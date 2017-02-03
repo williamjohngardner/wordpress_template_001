@@ -276,28 +276,32 @@ img {
 }
 
 #image1 {
-  margin-left: 0%;
+  display: inline-block;
+  margin-left: auto;
   margin-right: auto;
 }
 
 #image2 {
-  margin-left: 50px;
+  display: inline-block;
+  margin-left: auto;
   margin-right: auto;
 }
 
 #image3 {
-  margin-left: 7%;
+  display: inline-block;
+  margin-left: auto;
   margin-right: auto;
 }
 
-#image4 {
-  margin-left: 100%;
-  margin-right: 0%;
+.spacer {
+  display: none;
+  width: 100px;
 }
 
+
 .cirimage {
-  width: 125px;
-  height: 125px;
+  width: 175px;
+  height: 175px;
 }
 
 .cirimage:hover {
@@ -487,7 +491,9 @@ img {
 }
 
 .section_9 {
-  background-color: gray;
+  background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/PracticeAreas_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: auto;
 }
 
@@ -576,68 +582,21 @@ button {
 
 /* SITEWIDE FOOTER CSS STARTS HERE */
 
-
-#text-14 {
-	margin: 0 125px;
-}
-
-#text-14 img {
-	margin-top: 40px;
-	margin-bottom: 30px;
-}
-
-#text-14 ul {
-	vertical-align: middle;
-	margin-top: 7%;
-	float: right;
-}
-
-#text-14 li {
-	color: #a21c26;
-	font-weight: 700;
-	font-size: 1.25em;
-	display: inline-block;
-	margin: 0 15px;
-}
-
-#pre_footer_cta_area {
-	background-color: #999999;
-	height: auto;
-	border-bottom: none;
-	padding-top: 0;
-}
-
-#text-15 {
-	margin: 0px 50px;
-}
-
-#text-15 p {
-	width: 45%;
-	display: inline;
-	float: right;
-}
-
-.footerlocalities {
-	padding-top: 20px;
-}
-
 .section_11 {
 	background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/Locations_Background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 	overflow: hidden;
 	height: auto;
-	border-top: 10px solid #a21c26;
-	border-bottom: 10px solid #a21c26;
 }
 
 .location_title {
-	font-family: Oswald, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	margin-top: 50px;
 	color: #333333;
   margin-bottom: 30px;
- 	font-size: 2em;
+ 	font-size: 1.5em;
   font-weight: 700;
 }
 
@@ -651,14 +610,15 @@ button {
 }
 
 .location_container h2 {
-	font-family: Oswald, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
 	font-wieght: 700;
 	color: #333333;
 }
 
 .location_container h4 {
-	font-family: Oswald, sans-serif;
+  font-size: 1.25em;
+	font-family: 'Oswald', sans-serif;
 	color: #333333;
 }
 
@@ -670,7 +630,7 @@ button {
 .map1, .map2, .map3 {
 	width: 350px;
 	vertical-align: top;
-    display: inline-block;
+  display: inline-block;
 }
 
 .stretch {
@@ -684,11 +644,12 @@ button {
 	display: inline-block;
 	width: 100%;
 	height: 125px;
-	margin-bottom: 40px;
 }
 
 .loc_contact h3{
-	font-family: Oswald, sans-serif;
+	font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
 	margin: 10px;
 	width: 65%;
 	float: left;
@@ -708,9 +669,37 @@ button {
    margin-top:-400px;  /* your iframe height */
 }
 
+/* SITEWIDE FOOTER CSS ENDS HERE */
+
+.section_12 {
+  background-color: #ffffff;
+  height: auto;
+  border-top: 10px solid #a21c26;
+  border-bottom: 10px solid #a21c26;
+}
+
+.section_12 img {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.section_12 ul {
+	vertical-align: middle;
+	margin-top: 7%;
+	float: right;
+}
+
+.section_12 li {
+	color: #a21c26;
+	font-weight: 700;
+	font-size: 1.25em;
+	display: inline-block;
+	margin: 0 15px;
+}
+
 @media screen and (max-width: 1340px) {
 
-	#text-14 img {
+  .section_12 img {
 		display: block;
 		margin-top: 40px;
 		margin-right: auto;
@@ -718,16 +707,37 @@ button {
 		margin-bottom: 0;
 	}
 
-	#text-14 ul {
+	.section_12 ul {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		padding-bottom: 20px;
 		float: none;
 	}
+}
 
-<!-- ------------------------------------------ -->
+@media screen and (max-width: 800px) {
+	.section_12 ul {
+		text-align: center;
+		}
+}
 
+.section_13 {
+  background-color: #999999;
+	height: auto;
+}
+
+.section_13 p {
+	width: 45%;
+	display: inline;
+	float: right;
+}
+
+.footerlocalities {
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 1340px) {
 	.footerlocalities {
 		display: block;
 		margin-left: auto;
@@ -735,7 +745,7 @@ button {
 		float: none;
 	}
 
-	#text-15 p {
+	.section_13 p {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -757,16 +767,19 @@ button {
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-@media screen and (max-width: 800px) {
-		#text-14 ul {
-		text-align: center;
-		}
 }
 
-/* SITEWIDE FOOTER CSS ENDS HERE */
+footer {
+  background-color: #000000;
+  height: 75px;
+}
 
-.section_12 {
-  background-color: #ffffff;
-  height: auto;
+footer ul {
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer li {
+  color: #ffffff;
+  display: inline-block;
 }
