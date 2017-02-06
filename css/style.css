@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+h1 h2 h3 h4 h5 h6 p a {
+  font-family: 'Oswald', sans-serif;
+}
+
 a {
   color: #ffffff;
 }
@@ -30,7 +34,7 @@ header {
 }
 
 #primaryphone {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 5em;
   font-weight: 700;
   margin: 50px 0 0 0;
@@ -76,7 +80,7 @@ header {
 .primary_nav li {
   color: #ffffff;
   display: inline-block;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
   text-transform: uppercase;
   padding: 15px 25px;
@@ -95,7 +99,7 @@ header {
 }
 
 #hero_text {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   color: #ffffff;
   margin-top: 70px;
@@ -103,7 +107,8 @@ header {
 }
 
 #hero_text p {
-  font-size: 1em;
+  font-family: serif;
+  font-size: 1.25em;
 }
 
 #hero_text i {
@@ -130,12 +135,14 @@ header {
 }
 
 .section_title {
+  font-family: 'Oswald', sans-serif;
   margin-top: 35px;
   text-align: center;
   color: #ffffff;
   margin-bottom: 30px;
   font-size: 2.5em;
-  font-weight: 700;
+  font-weight: 500;
+  letter-spacing: .10em;
 }
 
 .section_cta {
@@ -163,7 +170,7 @@ header {
 .verdict_text {
   text-align: center;
   color: #000000;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
   font-weight: 700px;
   padding-top: 40px;
@@ -174,10 +181,6 @@ header {
   font-size: 2.5em;
 }
 
-#section2_cta {
-  color: #ffffff;
-}
-
 .section_3 {
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/JoeMadalon_Background_rev_1.jpg');
   background-repeat: no-repeat;
@@ -186,6 +189,7 @@ header {
 }
 
 #section3_text {
+  font-family: 'Oswald', sans-serif;
   margin-top: 2%;
   color: #ffffff;
 }
@@ -197,13 +201,13 @@ header {
 
 #section3_text h5 {
   font-weight: 300;
-  font-size: 1.7em;
+  letter-spacing: .05em;
+  font-size: 1.75em;
 }
 
 #section3_text p {
-  font-family: serif;
-  font-weight: 150;
-  font-size: 1.5em;
+  font-weight: 100;
+  font-size: 1.25em;
   text-align: justify;
   margin-top: 30px;
 }
@@ -275,28 +279,6 @@ img {
   margin-bottom: 25px;
 }
 
-#image1 {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#image2 {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#image3 {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.spacer {
-  display: none;
-  width: 100px;
-}
 
 
 .cirimage {
@@ -386,10 +368,6 @@ img {
 .section_7 img {
   width: 275px;
   height: 185px;
-}
-
-.section_7 .col-lg-3 {
-
 }
 
 .section_8 {
@@ -572,8 +550,6 @@ button {
 #section11_sectiontitle {
   color: #333333;
   margin-bottom: 30px;
-  font-size: 2.5em;
-  font-weight: 700;
 }
 
 #googplus {
@@ -588,16 +564,6 @@ button {
   background-size: 100%;
 	overflow: hidden;
 	height: auto;
-}
-
-.location_title {
-	font-family: 'Oswald', sans-serif;
-	text-align: center;
-	margin-top: 50px;
-	color: #333333;
-  margin-bottom: 30px;
- 	font-size: 1.5em;
-  font-weight: 700;
 }
 
 .location_container {
