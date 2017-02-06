@@ -127,6 +127,42 @@ header {
   padding: 0;
 }
 
+/* -------- HERO SLIDER/TESTIMONIALS -------- */
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 425px;
+  height: 200px;
+  background: none;
+  text-align: center;
+}
+
+.slider_option {
+  float: right;
+  position: relative;
+  margin: 10px auto;
+}
+
+/* ---------------------------------------------- */
+
 .section_2{
   background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Results_Background_rev_1.jpg');
   background-repeat: no-repeat;
