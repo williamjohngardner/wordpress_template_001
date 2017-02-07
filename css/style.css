@@ -35,7 +35,7 @@ header {
 
 #primaryphone {
   font-family: 'Oswald', sans-serif;
-  font-size: 5em;
+  font-size: 4.75em;
   font-weight: 700;
   margin: 50px 0 0 0;
   color: #333333;
@@ -65,9 +65,14 @@ header {
   color: #777777;
   font-family: Oswald, sans-serif;
 }
+
 .header-right h6 {
   font-size: 1.25em;
   color: #ffffff;
+}
+
+nav {
+  background: #333333;
 }
 
 .primary_nav {
@@ -81,7 +86,8 @@ header {
   color: #ffffff;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.25em;
+  font-weight: 200;
+  font-size: 1.5em;
   text-transform: uppercase;
   padding: 15px 25px;
 }
@@ -524,6 +530,10 @@ img {
   width: 350px;
 }
 
+.video_container li:hover {
+  background-color: #a21c26;
+}
+
 .section_9 {
   background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/PracticeAreas_Background.jpg);
   background-repeat: no-repeat;
@@ -606,6 +616,7 @@ button {
 #section11_sectiontitle {
   color: #333333;
   margin-bottom: 30px;
+  font-weight: 500;
 }
 
 /* SITEWIDE FOOTER CSS STARTS HERE */
