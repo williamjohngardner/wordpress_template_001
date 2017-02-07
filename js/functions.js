@@ -44,3 +44,25 @@ jQuery(document).ready(function ($) {
     });
 
 });
+
+$("#verdict_left > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#verdict_left > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#verdict_left');
+},  3000);
+
+$("#verdict_right > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#verdict_right > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#verdict_right');
+},  3000);
