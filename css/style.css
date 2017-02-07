@@ -484,26 +484,40 @@ img {
   color: #ffffff;
 }
 
-#video_links a {
+.video_container {
+  height: auto;
+  margin-right: 5%;
+	margin-left: 5%;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.video_stretch {
+	width: 100%;
+	display: inline-block;
+}
+
+.video_container a {
   color: #333333;
   font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
   font-weight: 400;
-
 }
 
-#video_links a:hover {
+.video_container a:hover {
   color: #777777;
 }
 
-#video_links ul {
+.video_container ul {
   list-style-type: none;
 }
 
-#video_links li {
-  margin: 30px 30px 30px 0;
+.video_container li {
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: 6px #a21c26 solid;
-  border-radius: 2px;
+  border-radius: 5px;
   text-align: center;
   padding-top: 5px;
   height: 75px;
@@ -592,10 +606,6 @@ button {
 #section11_sectiontitle {
   color: #333333;
   margin-bottom: 30px;
-}
-
-#googplus {
-  float: right;
 }
 
 /* SITEWIDE FOOTER CSS STARTS HERE */
